@@ -1,0 +1,8 @@
+{
+  "name": "media-stream-sms-alerts",
+  "private": true,
+  "type": "module",
+  "scripts": {"demo": "tsx scripts/demo.ts", "test": "tsx test/media_sms_service.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"tsx": "^4.19.0", "typescript": "^5.6.0"}
+}
